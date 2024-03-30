@@ -1,11 +1,3 @@
-// const JsUser = {
-//     name : "Hitesh",
-//     "full name" : "Hitesh Choudhary",
-//     age : 18,
-//     location : "Jaipur",
-//     email : "hitesh@google.com",
-//     isLoggedIn : false
-// }
 // JsUser.greetings = function(){
 //     console.log("Hello from JsUser");
 // }
@@ -27,21 +19,27 @@
 //         }
 //     }
 // }
-// console.log(regularUser.fullName.userFullName.firstName , regularUser.fullName.userFullName.lastName);
-const obj1 = {
-    1 : "a",
-    2 : "b"
+// console.log(regularUser.fullName.userFullName.firstName regularUser.fullName.userFullName.lastName);
+// const obj1 = {
+//     1 : "a",
+//     2 : "b"
+// }
+// const obj2 = {
+//     3 : "c",
+//     4 : "d"
+// }
+// const obj3 = Object.assign({} , obj1 , obj2)
+// console.log(obj3);
+const JsUser = {
+    name : "Hitesh",
+    age : 18,
+    location : "Jaipur",
+    email : "hitesh@google.com",
+    isLoggedIn : false
 }
-const obj2 = {
-    3 : "c",
-    4 : "d"
-}
-const obj3 = Object.assign({} , obj1 , obj2)
-console.log(obj3);
 
-
-
-
-
-
-
+console.log(Object.keys(JsUser));
+console.log("______________________________________________");
+console.log(Object.values(JsUser));
+console.log("______________________________________________");
+console.log(Object.entries(JsUser));
