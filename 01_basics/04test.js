@@ -38,8 +38,5 @@ const JsUser = {
     isLoggedIn : false
 }
 
-console.log(Object.keys(JsUser));
-console.log("______________________________________________");
-console.log(Object.values(JsUser));
-console.log("______________________________________________");
-console.log(Object.entries(JsUser));
+const {name : fname} = JsUser;
+console.log(fname);
