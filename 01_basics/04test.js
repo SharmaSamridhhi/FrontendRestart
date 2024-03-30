@@ -13,6 +13,22 @@
 //     console.log(`Hello to ${this["full name"]}`);
 // }
 // console.log(JsUser.greetingsTwo());
+// const tinderUser = new Object();
+// const tinderUser = {};
+// tinderUser.Id = "123abc"
+// tinderUser.name = "Sammy"
+// tinderUser.isLoggedIn = false
+// const regularUser = {
+//     email : "some@gmail.com",
+//     fullName : {
+//         userFullName : {
+//             firstName : "Hitesh",
+//             lastName : "Choudhary"
+//         }
+//     }
+// }
+// console.log(regularUser.fullName.userFullName.firstName , regularUser.fullName.userFullName.lastName);
+
 
 
 
