@@ -1,0 +1,31 @@
+html {
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin-top: 165px;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    border: 0.9px solid black;
+    display: inline-block;
+    cursor: pointer;
+}
+#grey {
+    background: grey;
+  }
+  
+  #white {
+    background: rgb(233, 117, 23);
+  }
+  #blue {
+    background: rgb(17, 59, 173);
+  }
+  #yellow {
+    background: rgb(94, 4, 146);
+  }
