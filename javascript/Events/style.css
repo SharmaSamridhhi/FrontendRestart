@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+.btn{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 88px;
+    width: 133px;
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid rgb(182, 179, 179);
+    background-color: rgb(191, 187, 187);
+}
