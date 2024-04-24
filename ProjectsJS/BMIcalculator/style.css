@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    row-gap: 12px;
+}
+input{
+    padding: 10px;
+    border-radius: 2px;
+    margin: 10px;
+    border: 1px solid rgb(196, 195, 195);
+    height: 30px;
+    width: 150px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 500px;
+    row-gap: 17px;
+    font-size: 18px;
+}
+button{
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 195, 195);
+}
+.result{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    color: #2553d1;
+    margin-bottom: 10px;
+}
+.bmi-guide{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
