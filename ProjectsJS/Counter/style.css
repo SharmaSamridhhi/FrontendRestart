@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #756AB6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.output{
+    height: 80px;
+    width: 80px;
+    font-size: 20px;
+    
+}
+.outputBtn{
+    background-color: #E0AED0;
+}
+button{
+    border: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 3px;
+    background-color: #AC87C5;
+    opacity: 0.6;
+    box-shadow: 0px 0px 25px -5px rgba(0,0,0,1);
+    cursor: pointer;
+    font-size: 26px;
+}
